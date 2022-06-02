@@ -4,19 +4,19 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
-    public class CategoryController : Controller
+    public class ProductController : Controller
     {
         private readonly ApplicationDbContext _db;
 
-        public CategoryController(ApplicationDbContext db)
+        public ProductController(ApplicationDbContext db)
         {
             _db = db;
         }
 
         public IActionResult Index()
         {   
-            IEnumerable<Category>objCategoryList = _db.Categories;
-            return View(objCategoryList);
+            IEnumerable<Product>objProductList = _db.Products;
+            return View(objProductList);
         }
 
         //GET
@@ -27,12 +27,16 @@ namespace WebApplication1.Controllers
 
         //POST
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Create(Category obj)
+        //[ValidateAntiForgeryToken]
+        public IActionResult Create(Product obj)
         {
             //adding to the database
-            _db.Categories.Add(obj); 
-            _db.SaveChanges();
+            if(ModelState.IsValid)
+            {
+                _db.Products.Add(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
             return View();
         }
 
