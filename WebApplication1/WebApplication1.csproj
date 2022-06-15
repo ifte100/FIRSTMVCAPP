@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Content Remove="Views\Product\Index1.cshtml" />
+    <Content Remove="Views\Product\ProductInfo.cshtml" />
     <Content Remove="Views\Product\_Layout.cshtml" />
     <Content Remove="wwwroot\backgroundimg.jpg" />
     <Content Remove="wwwroot\pexels-stephan-seeber-1054201.jpg" />

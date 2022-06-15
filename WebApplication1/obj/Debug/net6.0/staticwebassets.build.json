@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "msO/3em/Kox6ehDCFznw+p9nt4JCrGmYuzQ98fRahD8=",
+  "Hash": "kgOP6+uN1Igc2YsPFoLnJqDOuJaDE1vh/IGNYlUP2es=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\iftek\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\iftek\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\backgroundimage.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\iftek\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "backgroundimage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\backgroundimage.jpg"
     },
     {
       "Identity": "C:\\Users\\iftek\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\bootswatchTheme.css",
